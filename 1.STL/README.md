@@ -1,3 +1,4 @@
+```cpp
 #include <iostream>
 
 using namespace std ;
@@ -11,8 +12,9 @@ int main(void){
 
     cout<<n<<'\n';
 return 0;
-
-#벡터
+```
+# 벡터
+```cpp
 #include<iostream>
 #include<vector>
 
@@ -32,7 +34,7 @@ int main(void){
     }
     cout << '\n';
 
-    V.pop_back();//remove the zero
+    V.pop_back();//remove the zero, 맨뒤요소 삭제
 
     vector<int>::iterator iter;
     for(iter=V.begin();iter!=V.end();iter++){
@@ -41,9 +43,9 @@ int main(void){
     cout<<'\n';
 return 0;
 }
-
-#MAP은 
-
+```
+# MAP은 
+```cpp
 #include <iostream>
 #include <map>
 using namespace std;
@@ -67,9 +69,9 @@ int main(void){
     
 return 0;
 }
-
-#SET
-
+```
+# SET
+```cpp
 #include <iostream>
 #include <unordered_set>
 using namespace std;
@@ -96,6 +98,9 @@ int main(void){
 
 return 0;
 }
+```
 //set=sort+only one
 //unordered_set=sort가안되었다, 맨마지막부터출력됨
 //#include<unordered_set>
+
+![이미지](https://hackingcpp.com/cpp/std/iterator_ranges_examples_crop.svg)

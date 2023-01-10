@@ -3,6 +3,17 @@
         "unordered_set": "cpp",
         "utility": "cpp",
         "map": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "xlocale": "cpp",
+        "vector": "cpp",
+        "deque": "cpp",
+        "initializer_list": "cpp",
+        "list": "cpp",
+        "xhash": "cpp",
+        "xstring": "cpp",
+        "xtree": "cpp",
+        "xutility": "cpp",
+        "xstddef": "cpp"
     }
 }
